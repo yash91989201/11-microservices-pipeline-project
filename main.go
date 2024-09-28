@@ -83,6 +83,7 @@ type frontendServer struct {
 }
 
 func main() {
+	// adding a comment to trigger auto build
 	ctx := context.Background()
 	log := logrus.New()
 	log.Level = logrus.DebugLevel
